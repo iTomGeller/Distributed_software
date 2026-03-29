@@ -1,0 +1,10 @@
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/UserServiceApplication.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/service/impl/UserServiceImpl.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/vo/LoginResponse.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/controller/UserController.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/config/SecurityConfig.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/dto/RegisterRequest.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/entity/User.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/mapper/UserMapper.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/dto/LoginRequest.java
+/Users/bytedance/Documents/trae_projects/Distributed_software/seckill-system/seckill-user-service/src/main/java/com/seckill/user/service/UserService.java

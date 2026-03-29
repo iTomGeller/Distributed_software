@@ -1,0 +1,26 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: seckill-user-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/seckill_user?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+    password: 
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.seckill.user.entity
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
