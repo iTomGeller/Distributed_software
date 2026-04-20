@@ -36,8 +36,11 @@ public class UserController {
     @ApiOperation("获取用户信息")
     @GetMapping("/info")
     public Result<?> getUserInfo(HttpServletRequest request) {
-        // 从请求头获取 token
-        String token = request.getHeader("Authorization").replace("Bearer ", "");
+        String authorization = request.getHeader("Authorization");
+        if (authorization == null || !authorization.startsWith("Bearer ")) {
+            return Result.fail(401, "请先登录");
+        }
+        String token = authorization.substring(7);
         Long userId = JwtUtil.getUserIdFromToken(token);
         return Result.success(userService.getUserById(userId));
     }
